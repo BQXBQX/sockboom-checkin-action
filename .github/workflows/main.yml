@@ -40,7 +40,7 @@ jobs:
     - name: Commit #上传日志到仓库，可以自行修改 name 和 email
       env:
        NAME: sockboom-action
-       EMAIL: sockboom-action@love98ooo.github.io
+       EMAIL: sockboom-action@BQXBQX.github.io
       run: |
         git config --global user.name "$NAME"
         git config --global user.email "$EMAIL"
